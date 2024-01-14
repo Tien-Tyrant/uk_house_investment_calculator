@@ -1,0 +1,15 @@
+<form (ngSubmit)="check()" [formGroup]="userForm">
+    <div>
+        <label>House Price(£):</label><input formControlName="housePrice" placeholder="500000">
+        <div *ngIf="housePriceCtrl.dirty && housePriceCtrl.hasError('required')">House price is required</div>
+    </div>
+    <div>
+        <label>Deposit(£):</label><input type="number" formControlName="deposit" placeholder="100000">
+        <div *ngIf="depositCtrl.dirty && depositCtrl.hasError('required')">Deposite is required</div>
+    </div>
+    <div>
+        <label>Interest Rate(%): </label><input type="number" formControlName="interestRate" placeholder="4.6">
+        <div *ngIf="interestRateCtrl.dirty && interestRateCtrl.hasError('required')">interest rate is required</div>
+    </div>
+    <button type="submit" [disabled]="userForm.invalid">Check</button>
+</form>
