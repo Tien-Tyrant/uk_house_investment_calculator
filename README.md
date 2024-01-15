@@ -25,3 +25,6 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+trying to mock this rightmove mortgage repayment calculator screen
+![image](https://github.com/Tien-Tyrant/uk_house_investment_calculator/assets/5664483/5badd05d-2366-484e-8b3e-4e42ce17ae81)
